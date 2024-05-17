@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.tou{
+ 
+  
+  height: 420px;
+  padding: 1px;
+  background-image: url(../resource/home-banner@2x.jpg);
+  background-size:100% 100%;
+  
+}
+.tou .f01{
+display: block;
+height: 100px;
+width:1000px;
+margin: 70px auto;
+padding: 1px;
+
+}
+.tou h1{
+  color: white;
+  display: block;
+  margin: 10px 70px;
+  font-family: 宋体;
+  font-size: 60px;
+}
+.tou h4{
+  margin: 5px 210px;
+  color: white;
+  font-size: 18px;
+  font-family: 宋体;
+}
+.tou span img{
+  margin: 2px 20px 2px 40px;
+}
+.tou span span{
+  float:right;
+  margin: 5px 20px;
+
+}
+.tou span button{
+  height:40px;
+  width: 50px;
+  margin: 0px 5px;
+  background-color: rgba(52, 63, 223, 0.533);
+  color:white;
+  border-color: aliceblue;
+  border-radius: 15%;
+  font-size: 15px;
+  box-sizing: content-box;
+}
+.tou button{
+  height: 50px;
+  width: 200px;
+  margin: 0 600px;
+  color:rgba(52, 63, 223, 0.863);
+  border-color: aliceblue;
+  border-radius: 3%;
+  font-size: 20px;
+  box-sizing: content-box;
+  font-family: 宋体;
+}
+.to{
+  
+  padding: 0 2%;
+  background-color: #f4f4f4;
+}
+ h2{
+  margin: 0 0 10px 0;
+  font-size: 40px;
+}
+ p{
+  margin: 5px 0 20px 0;
+ font-family: 宋体;
+}
+button{
+  height: 30px;
+  width: 90%;
+}
+.ty{
+
+  
+  padding: 0 2%;
+}
+.td{
+ 
+  padding: 0 2%;
+}
+.td h2{
+  border-bottom: 1px solid;
+  padding: 5px;
+}
+li{
+    list-style: none;
+}
+li img{
+  float: left;
+  height: 50px;
+  width: 50px;
+
+}
+li div{
+  margin: 0 0 0 7%;
+}
+li p{
+  margin: 1px;
+}
+.th{
+  
+  height: 30px;
+ 
+  background-color: #f4f4f4;
+  padding:40px 500px;
+}
+.th p{
+  margin: 0 auto;
+}
+button:hover{
+  background-color: rgba(255, 170, 0, 0.842);
+  cursor: pointer;
+}
+
