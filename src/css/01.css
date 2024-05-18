@@ -1,0 +1,71 @@
+.login-form {
+  background-color:rgb(250, 248, 251);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 80%;
+  margin: 20px auto;
+  position: absolute; /* 修改为绝对定位 */
+  top: 50%; /* 垂直居中 */
+  left: 50%; /* 水平居中 */
+  transform: translate(-50%, -50%); /* 居中 */
+}
+
+ .login-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.login-form input[type="text"],
+.login-form input[type="password"]
+{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+ .login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+  border-color: #079acf;
+}
+
+.login-form button[type="submit"],
+.login-form button[type="reset"],
+.login-form button[type="button"]{
+  margin: 5px;
+  height: 25px;
+  width: 60px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+ .login-form button[type="submit"]:hover ,
+.login-form button[type="reset"]:hover,
+.login-form button[type="button"]:hover{
+  background-color: #0056b3;
+}
+
+.close-button {
+  height:20px;
+  width: 20px;
+  background: none;
+      border: none;
+      color: #0d120fe7;
+      cursor: pointer;
+      font-size: 15px;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+}
+.close-button:hover{
+  background-color: antiquewhite;
+  border-radius: 50%;
+}
