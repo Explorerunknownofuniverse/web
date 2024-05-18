@@ -13,7 +13,6 @@ public class UserServiceImpl implements UserService {
     }
   @Override
     public boolean validateUserLogin(String username, String password) {
-        User user = userDAO.selectname(username);
-      return user != null && user.getPassword().equals(password);
+      return userDAO.selectuser(username,password);
   }
 }

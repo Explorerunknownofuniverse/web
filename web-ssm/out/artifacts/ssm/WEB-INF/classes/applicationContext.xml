@@ -13,8 +13,6 @@
          http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop.xsd
  ">
-
-
     <!-- 关联数据库配置文件 -->
     <context:property-placeholder location="classpath:database.properties"/>
     <!-- 连接池 -->

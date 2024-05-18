@@ -9,14 +9,9 @@
         INSERT INTO users (username, password) VALUES (#{username}, #{password})
     </insert>
 
-    <!-- 根据ID查询用户 -->
-    <select id="selectid" parameterType="Long" resultType="com.ml.pojo.User">
-        SELECT * FROM users WHERE id = #{id}
-    </select>
-
     <!-- 根据用户名查询用户 -->
-    <select id="selectname" parameterType="String" resultType="com.ml.pojo.User">
-        SELECT * FROM users WHERE username = #{username}
+    <select id="selectuser" parameterType="String" resultType="com.ml.pojo.User">
+        SELECT * FROM users WHERE username = #{username} and password = #{password}
     </select>
 
 </mapper>

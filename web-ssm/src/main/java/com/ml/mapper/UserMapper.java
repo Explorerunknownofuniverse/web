@@ -4,7 +4,6 @@ public interface UserMapper {
 
   boolean insertuser(User user);
 
-  User selectid(Long id);
 
-  User selectname(String username);
+  boolean selectuser(String username,String password);
 }
